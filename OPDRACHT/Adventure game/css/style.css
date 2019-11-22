@@ -1,0 +1,35 @@
+* {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 120%;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+
+    /*font-family: 'Permanent Marker', cursive;*/
+}
+#container {
+    background: url("../img/Start_Screen.jpg") grey fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#button1, #button3 {
+    visibility: hidden;
+}
+
+button {
+    padding: 10px;
+}
+
+.deadButtonPosition {
+    width: 800px;
+    padding: 20px;
+    font-size: 170%;
+    position: absolute;
+    top: 86%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+}

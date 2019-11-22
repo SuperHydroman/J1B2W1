@@ -1,0 +1,36 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+
+#container {
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: url(../img/bg0.jpg);
+	background-size: cover;
+	border: 5px solid black;
+}
+
+#buttons {
+	margin: 20px;
+}
+
+button {
+	padding: 20px 50px;
+	background-color: #82cc82;
+	border: none;
+}
+
+#picturedNumbers {
+	background: url("../img/0.jpg");
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background-size: cover;
+}
