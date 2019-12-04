@@ -1,13 +1,14 @@
 * {
-    font-family: 'Shadows Into Light', cursive;
+    /*font-family: 'Shadows Into Light', cursive;*/
+    font-family: 'Creepster', cursive;
     font-size: 120%;
+    color: white;
+    border: none;
 }
 
 html, body {
     margin: 0px;
     padding: 0px;
-
-    /*font-family: 'Permanent Marker', cursive;*/
 }
 #container {
     background: url("../img/Start_Screen.jpg") grey fixed;
@@ -16,20 +17,101 @@ html, body {
     width: 100vw;
 }
 
+h2 {
+    margin: 0px;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline;
+    color: #8A0303;
+    font-size: 250%;
+}
+
+p {
+    font-size: 70%;
+    display: inline;
+    margin: 0px;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #8A0303;
+}
+
+i {
+    color: black;
+}
+
 #button1, #button3 {
     visibility: hidden;
 }
 
 button {
     padding: 10px;
+    cursor: pointer;
+    color: black;
+    transition: ease-in-out .2s
+}
+
+button:hover {
+    font-size: 130%;
+    background-color: grey;
+}
+
+.soonerRemove {
+    transition: none!important;
 }
 
 .deadButtonPosition {
-    width: 800px;
-    padding: 20px;
-    font-size: 170%;
-    position: absolute;
+    width: 800px!important;
+    padding: 20px!important;
+    font-size: 170%!important;
+    position: absolute!important;
     top: 86%!important;
     left: 50%!important;
     transform: translate(-50%, -50%)!important;
+}
+
+audio {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#saw {
+    filter: grayscale(0) blur(9px);
+    width: 80px;
+    position: absolute;
+    bottom: 190px;
+    left: 19px;
+}
+
+img {
+    cursor: grab;
+}
+
+/* Progress Bar */
+#myProgress {
+  width: 30%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 50px;
+  background-color: green;
+}
+
+/* Loading Screen Bar */
+
+#loadingScreenProgress {
+  width: 30%;
+  background-color: grey;
+}
+
+#loadingScreenProgressBar {
+  width: 0%;
+  height: 50px;
+  background-color: green;
 }

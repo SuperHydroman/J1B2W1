@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <title>Game</title>
     <link type="text/css" rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|Shadows+Into+Light&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a05c9ef73c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="container">
+        <h2 id="title">Walking Dead Web Browser Edition</h2>
+        <p id="description">MADE BY GIDEON VAN DEN HERIK | MBIAO18A6 &copy;</p>
         <button id="button1"></button>
-        <button id="button2">Start Game!</button>
+        <button id="button2" class="soonerRemove">Start Game!</button>
         <button id="button3"></button>
+        <img id="item" src="../items/sledgehammer.png" alt="Item">
+        <audio id="my_audio" src="../audio/The-Walking-Dead-Full-Theme-Song.mp3" type="audio/mp3" loop></audio>
+        <div id="loadingScreenProgress">
+            <div id="loadingScreenProgressBar"></div>
+        </div>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
     </div>
 <script src="../js/script.js"></script>
+<script src="../js/craftingbar.js"></script>
+<script src="../js/loadingscreen.js"></script>
 </body>
 </html>
