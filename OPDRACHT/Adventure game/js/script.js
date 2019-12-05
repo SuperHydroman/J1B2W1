@@ -47,7 +47,7 @@ function startGame() {
         desc.style.fontSize = "90%";
         loadingScreenBar.style.visibility = "hidden";
         loadLevel1();
-    }, 5600);
+    }, 9000);
 }
 
 function loadLevel1() {
