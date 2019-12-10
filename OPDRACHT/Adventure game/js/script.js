@@ -215,8 +215,7 @@ function loadLevel5() {
         button3.style.cursor = "pointer";
         desc.style.fontSize = "90%";
         desc.style.visibility = "visible";
-        desc.innerHTML = "You need a key to enter the hospital";
-        desc.style.top = "8%";
+        desc.innerHTML = "You've got the key! You can now enter the hospital!"
         button3.onclick = loadLevel7;
     }
 }
@@ -329,6 +328,8 @@ function loadLevel7() {
     invItem.style.transform = "rotate(-10deg)";
     invItem.style.visibility = "visible";
     invItem.style.position = "absolute";
+    desc.style.visibility = "hidden";
+    button3.style.visibility = "hidden"
 }
 
 function loadLevel8() {
